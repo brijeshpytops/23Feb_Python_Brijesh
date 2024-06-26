@@ -64,3 +64,22 @@ name = "python"
 
 # chamn =32
 # print(chamn)
+
+# int 
+x = 10
+y = 10.5
+z = x + y
+# print(z)
+# print(type(z))
+
+nums = input("Enter a num: ")
+numbers = int(nums)
+print(type(numbers))
+
+# i = '10'
+# i = 'sadsd'
+# f = float(i)
+# print(f)
+
+# i = '10'
+# print(isinstance(i, int)) # check : T|F
