@@ -1,5 +1,5 @@
 """
-set] mutable/immutable, unordered, duplicate values are not allowed, you can not indexing and slicing.
+set] mutable/immutable(frozenset), unordered, duplicate values are not allowed, you can not indexing and slicing.
 set is a collection of unique elements. It is an unordered collection of items. It is iterable.
 set is mutable, but it is not indexable. It is not subscriptable. It is not
 sliced.
