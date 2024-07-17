@@ -44,3 +44,14 @@
 
 # --------------------------------------------------------------------------------------
 
+# name = input("Enter a something...")
+# unique_ch = ""
+# emp_dict = dict()
+# for ch in name:
+#     if ch not in unique_ch:
+#         unique_ch += ch
+#         emp_dict.update({ch:name.count(ch)})
+# print(emp_dict)
+
+# print(unique_ch)
+
