@@ -39,3 +39,11 @@ import random
 # # print(random.choice(musics))
 # random.shuffle(musics)
 # print(musics)
+
+
+import os
+
+# command = input("Enter a command: ")
+# print(os.system(command))
+
+# print(os.listdir(r'C:\xampp\htdocs\PYTHONMaster\batch\23Feb_Python_Brijesh\core\modules_and_packages\instagram'))
