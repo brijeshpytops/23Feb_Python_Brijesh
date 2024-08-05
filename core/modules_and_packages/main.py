@@ -14,3 +14,11 @@
 # # print(create_comment())
 
 # post_like()
+
+# from facebook.auth import login
+# from facebook.auth import login as l
+# from facebook.auth.login import user_login, test
+# from facebook.auth.login import *
+
+# print(login.user_login())
+# print(l.test())
