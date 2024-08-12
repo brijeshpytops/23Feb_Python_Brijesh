@@ -97,3 +97,200 @@ for row in range(1, num+1):
     for col in range(1, num-row+2):
         print("*", end=' ')
     print()
+
+
+
+# * 
+#   * 
+#     * 
+#       * 
+#         * 
+# * * * * 
+# * * * 
+# * * 
+# * 
+
+
+num = 5
+for row in range(1, num+1):
+    
+    for col in range(1, row+1):
+        if row == col:
+            print("*", end=' ')
+        else:
+            print(" ", end=' ')
+    print()
+for row in range(1, num+1):
+    for col in range(1, num-row+1):
+        print("*", end=' ')
+    print()
+
+
+# * 
+#   * 
+#     * 
+#       * 
+#         * 
+#       * 
+#     * 
+#   * 
+# * 
+
+num = 5
+for row in range(1, num+1):
+    
+    for col in range(1, row+1):
+        if row == col:
+            print("*", end=' ')
+        else:
+            print(" ", end=' ')
+    print()
+for row in range(1, num+1):
+    for col in range(1, num-row+1):
+        if num-row == col:
+            print("*", end=' ')
+        else:
+            print(" ", end=' ')
+    print()
+
+
+#             * 
+#           *   * 
+#         *       * 
+#       *           * 
+#     *               * 
+#   *                   * 
+# *                       * 
+#   *                   * 
+#     *               *   
+#       *           *     
+#         *       *       
+#           *   *         
+#             *           
+
+
+# num = 7
+# for row in range(1, num+1):
+#     for col in range(num-row+1, 1, -1):
+#         print(" ", end=' ')
+#     for col in range(1, row+1):
+#         if col == 1:
+#             print("*", end=' ')
+#         else:
+#             print(" ", end=' ')
+#     for col in range(2, row+1):
+#         if row == col:
+#             print(f"*", end=' ')
+#         else:
+#             print(" ", end=' ')
+#     print()
+# for row in range(1, num+1):
+#     for col in range(1, row+1):
+#         print(" ", end=' ')
+#     for col in range(num-row+1, 1, -1):
+#         if col == num-row+1:
+#             print("*", end=' ')
+#         else:
+#             print(" ", end=' ')
+#     for col in range(2, num):
+#         if num-row == col:
+#             print(f"*", end=' ')
+#         else:
+#             print(" ", end=' ')
+#     print()
+
+
+#       *
+#      * *
+#     * * *
+#    * * * *
+#   * * * * *
+#    * * * *
+#     * * *
+#      * *
+#       *
+
+num = 5
+for row in range(1, num+1):
+    print(" "*(num-row), f" *"*row)
+for row in range(2, num+1):
+    print(" "*(row-1), " *"*(num-row+1))
+   
+#     * 
+#    * * 
+#   * * * 
+#  * * * * 
+# * * * * * 
+#  * * * * 
+#   * * * 
+#    * * 
+#     * 
+
+
+
+num = 5
+
+for row in range(2*num-1):
+    if row < num:
+        if row == 0:
+            print(' ' * (num - row - 1) + '*')
+        else:
+            print(' ' * (num - row - 1) + '*' + ' ' * (2*row-1) + '*')
+    else:
+        if row == 2*num-2:
+            print(" " * (row-num+1) + '*')
+        else:
+            print(" " * (row-num+1) + '*' + ' ' * (2*(2*num-row-2)-1) + '*')
+
+
+#     *
+#    * *
+#   *   *
+#  *     *
+# *       *
+#  *     *
+#   *   *
+#    * *
+#     *
+
+
+num = 5 
+
+for row in range(2*num-1):
+    if row < num:
+        print(' ' * (num - row - 1) + '* ' * (row + 1))
+    else:
+        print(' ' * (row - num + 1) + '* ' * (2*num - row - 1))
+
+
+#       *
+#      * *
+#     * * *
+#    * * * *
+#   * * * * *
+
+# num = 5
+# for row in range(1, num+1):
+#    print(" "*(num-row), f" *"*row)
+
+
+#      *
+#     **
+#    ***
+#   ****
+#  *****
+
+# num = 5
+# for row in range(1, num+1):
+#    print(" "*(num-row), f"*"*row)
+
+
+# *
+# **
+# ***
+# ****
+# *****
+
+# num = 5
+# for row in range(1, num+1):
+#    print("*"*row)

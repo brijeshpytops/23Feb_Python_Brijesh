@@ -7,9 +7,9 @@ sliced.
 set_name = set()
 set_name = {1,2,3,4}
 """
-# nums = {1,2,1,2,1,2,12,1,2,3,23,23,1,53,323,21,2,12,}
+nums = {1,2,1,2,1,2,12,1,2,3,23,23,1,53,323,21,2,12,}
 # # print(type(nums))
-# print(nums)
+print(nums)
 
 # Creating a set with some elements
 # my_set = {3, 1, 4, 2, 5}
