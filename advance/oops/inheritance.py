@@ -81,7 +81,10 @@ class Cube(Shape3D):
         return "cube"
 
 obj = mix()
-print(obj.test())
+print(Cube.mro())
+print(Cube.__mro__)
+
+# print(obj.test())
 # print(dir(obj))
 
 # print(obj.cube())
